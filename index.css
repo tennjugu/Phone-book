@@ -6,15 +6,16 @@ body{
 }
 
 .container{
-    width: 75vh;
-    height: auto;
+    width: 50vh;
+    height: 600px;
     background: black;
     position: relative;
-    left: 32%;
-    border-radius: 10px;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    left: 40%;
+    border-radius: 20px;
+    padding-left: 7px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    overflow: auto;
 }
 
 h1{
@@ -23,20 +24,20 @@ h1{
 
 input {
     border-radius: 7px;
-    width: 38em;
+    width: 25em;
     height: 1.8em;
     position: sticky;
-    left: 34%;
+    left: 36%;
     margin-bottom: 10px;
     /* position: fixed; */
 }
 
 
 img{
-    height: 80px;
-    width: 80px;
-    color: rgba(167, 167, 44, 0.705);
-    border-radius: 40px;
+    height: 70px;
+    width: 70px;
+    /* color: rgba(167, 167, 44, 0.705); */
+    border-radius: 35px;
 }
 
 
@@ -44,6 +45,7 @@ ul {
     list-style: none;
     line-height: 1.8em;
     font: 1rem;
+    /* position: relative; */
 }
 
 li,
@@ -73,7 +75,19 @@ a {
 ul li:first-child{
     font: 3px;
     font-weight: bold;
-    /* position: sticky; */
+   /* position: sticky; */
+    top: 20;
     color: blue;
-    
+}
+
+
+.contact-header{
+    position: fixed;
+    background-color: rgba(0,0,0,0.9);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.contact-names{
+    margin-top: 120px;  
 }
