@@ -1,5 +1,5 @@
 body{
-    font-family: -apple-system, Arial, 'Helvetica Neue', sans-serif;
+    font-family: Arial, 'Helvetica Neue', sans-serif;
     background: rgb(188, 126, 11);
     color: white; 
     font: 20px;
@@ -9,7 +9,8 @@ body{
     width: 50vh;
     height: 600px;
     background: black;
-    position: relative;
+    position: relative; 
+    /* to position the container in the middle of the page */
     left: 40%;
     border-radius: 20px;
     padding-left: 7px;
@@ -29,14 +30,12 @@ input {
     position: sticky;
     left: 36%;
     margin-bottom: 10px;
-    /* position: fixed; */
 }
 
 
 img{
     height: 70px;
     width: 70px;
-    /* color: rgba(167, 167, 44, 0.705); */
     border-radius: 35px;
 }
 
@@ -44,16 +43,14 @@ img{
 ul {
     list-style: none;
     line-height: 1.8em;
-    font: 1rem;
-    /* position: relative; */
+    padding-left: 17px;
 }
 
-li,
 a {
     text-decoration: none;
-    color: white;
-    
+    color: white;    
 }
+
 
 .profile{
     display: flex;
@@ -62,7 +59,6 @@ a {
 }
 
 .user-details{
-    /* margin-left: 20px; */
     margin-top: 20px;
 }
 
@@ -73,10 +69,9 @@ a {
 }
 
 ul li:first-child{
-    font: 3px;
     font-weight: bold;
-   /* position: sticky; */
-    top: 20;
+   position: sticky;
+    /* top: 20; */
     color: blue;
 }
 
