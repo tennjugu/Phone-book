@@ -6,7 +6,7 @@ body{
 }
 
 .container{
-    height: 600px;
+    height: 80vh;
     width: 50vh;
     background: black;
     position: relative; 
@@ -14,7 +14,7 @@ body{
     left: 40%;
     border-radius: 20px;
     padding-left: 7px;
-    padding-bottom: 25x;
+    padding-bottom: 20px;
     margin-top: 50px;
     overflow: auto;
 }
@@ -27,7 +27,6 @@ input {
     border-radius: 7px;
     width: 26.5em;
     height: 1.8em;
-    position: sticky;
     left: 36%;
     margin-bottom: 10px;
 }
@@ -102,7 +101,6 @@ li{
 ::-webkit-scrollbar-thumb:hover{
     background: rgb(85, 85, 85);
 }
-
 h2{
     font-size: 1em;
     font-weight: bold;
@@ -111,4 +109,6 @@ h2{
     color: rgb(83, 83, 178);   
     padding-left: 17px;
     background: rgba(0, 0, 0, 1);
+    border-bottom: 0.2px solid rgba(189, 183, 183, 0.555);
 }
+
